@@ -1,0 +1,106 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.8.1
+RVersion: 3.3.2
+Repos: CRAN=https://cran.rstudio.com/
+
+Package: MASS
+Source: CRAN
+Version: 7.3-45
+Hash: 0650d5701aa7e369e77c9e2c8e1dc913
+
+Package: Matrix
+Source: CRAN
+Version: 1.2-7.1
+Hash: 44c7e8fe4ce50a044ec2e5196f6694cc
+Requires: lattice
+
+Package: MatrixModels
+Source: CRAN
+Version: 0.4-1
+Requires: Matrix
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.8
+Hash: 436ad5c23fad4e22224c7ac2fc82b049
+
+Package: RcppEigen
+Source: CRAN
+Version: 0.3.2.9.0
+Requires: Matrix, Rcpp
+
+Package: SparseM
+Source: CRAN
+Version: 1.74
+
+Package: car
+Source: CRAN
+Version: 2.1-4
+Requires: MASS, mgcv, nnet, pbkrtest, quantreg
+
+Package: foreign
+Source: CRAN
+Version: 0.8-67
+Hash: 34615798e8a5c7bb2f69f4efc3e17b71
+
+Package: lattice
+Source: CRAN
+Version: 0.20-34
+Hash: 4390fc5602fd36017be70a27f7123ff3
+
+Package: lme4
+Source: CRAN
+Version: 1.1-12
+Requires: MASS, Matrix, Rcpp, RcppEigen, lattice, minqa, nlme, nloptr
+
+Package: mgcv
+Source: CRAN
+Version: 1.8-16
+Hash: 29f01afb1c7c3efaa3a7933eb6e57b69
+Requires: Matrix, nlme
+
+Package: minqa
+Source: CRAN
+Version: 1.2.4
+Requires: Rcpp
+
+Package: mnormt
+Source: CRAN
+Version: 1.5-5
+Hash: d0d5efbb1fb26d2dc5f9394c223084b5
+
+Package: nlme
+Source: CRAN
+Version: 3.1-128
+Hash: 72d50aad85f45456d60ded8ee47a8454
+Requires: lattice
+
+Package: nloptr
+Source: CRAN
+Version: 1.0.4
+
+Package: nnet
+Source: CRAN
+Version: 7.3-12
+Hash: 42c83a1f063b40fd8bb6ad68ed528aa5
+
+Package: packrat
+Source: CRAN
+Version: 0.4.8-1
+Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: pbkrtest
+Source: CRAN
+Version: 0.4-6
+Requires: MASS, Matrix, lme4
+
+Package: psych
+Source: CRAN
+Version: 1.6.12
+Hash: 9d4b62cad4b931e1726cb0b0a9bc55fe
+Requires: foreign, mnormt
+
+Package: quantreg
+Source: CRAN
+Version: 5.29
+Requires: Matrix, MatrixModels, SparseM
