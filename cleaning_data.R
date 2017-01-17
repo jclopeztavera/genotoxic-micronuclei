@@ -14,7 +14,7 @@ cases <- data[which(data$case == 1),]
 cases$case <- NULL
 names(cases) <- paste("case", names(cases), sep = ".")
 
-controls <- raw.data[which(raw.data$case == 0),]
+controls <- data[which(data$case == 0),]
 controls$case <- NULL
 names(controls) <- paste("control", names(controls), sep = ".")
 
