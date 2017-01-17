@@ -2,7 +2,7 @@
 # Exploratory analysis and descriptive statistics
 # This work is licensed under a Creative Commons Attribution 4.0 International License.
 
-## Sourcing the previous script, which loads the data and gets it ready
+## Sourcing the previous script, which loads (and attaches) the data and gets it ready
 source(
     "https://raw.githubusercontent.com/jclopeztavera/genotoxic-micronuclei/master/cleaning_data.R",
     echo = FALSE
@@ -18,11 +18,6 @@ if (!require(psych)) {
 d.data <- describe(data) # for the whole dataset
 d.cases <- describe(controls) # describing the welders data
 d.controls <- describe(cases) # describing the control data
-
-## Let's save some typing...
-attach(data)
-attach(cases)
-attach(controls)
 
 ## Comparing means and counts of non-micronucleus test data
 ### Comparing age and BMI using a t-test for two samples with unequal variances
@@ -142,11 +137,11 @@ sqrt.data <- sqrt(data[, 8:14])
 sqrt.data <- cbind(data[, 1:7], sqrt.data)
 
 ## Subsetting again cases and controls with the transformed data
-sqrt.cases <- sqrt.data[which(sqrt.data$case == 1),]
+sqrt.cases <- sqrt.data[which(sqrt.data$case == 1), ]
 sqrt.cases$case <- NULL
 names(sqrt.cases) <-
     paste("sqrt.case", names(sqrt.cases), sep = ".")
-sqrt.controls <- sqrt.data[which(sqrt.data$case == 0),]
+sqrt.controls <- sqrt.data[which(sqrt.data$case == 0), ]
 sqrt.controls$case <- NULL
 names(sqrt.controls) <-
     paste("sqrt.control", names(sqrt.controls), sep = ".")
