@@ -4,7 +4,7 @@
 ## Loading the csv file into the workspace...
 data <-
     read.csv(
-        "https://raw.githubusercontent.com/jclopeztavera/genotoxic-micronuclei/master/micronuclei-data.csv"
+        "https://raw.githubusercontent.com/jclopeztavera/genotoxic-micronuclei/master/Data/micronuclei-data.csv"
     )
 
 ## Due to a socio-demographic feature, the participants (welders)

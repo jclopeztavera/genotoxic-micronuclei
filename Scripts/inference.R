@@ -4,7 +4,7 @@
 
 ## Sourcing the R script that loads the data and gets it ready
 source(
-    "https://raw.githubusercontent.com/jclopeztavera/genotoxic-micronuclei/master/cleaning_data.R",
+    "https://raw.githubusercontent.com/jclopeztavera/genotoxic-micronuclei/master/Scripts/cleaning_data.R",
     echo = FALSE
 )
 
