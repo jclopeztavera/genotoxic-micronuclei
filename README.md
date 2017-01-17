@@ -2,18 +2,24 @@
 
 R scripts and data used to produce the "Genotoxic Evaluation of Mexican Welders Occupationally Exposed to Welding-Fumes Using the Micronucleus Test on Exfoliated Oral Mucosa Cells: A Case-Control Study" paper ([full-text])(http://dx.doi.org/10.1371/journal.pone.0131548)
 
-The R scripts were cloned from [this figshare project](https://figshare.com/projects/Genotoxic_Evaluation_of_Mexican_Welders_Occupationally_Exposed_to_Welding_Fumes_Using_the_Micronucleus_Test_on_Exfoliated_Oral_Mucosa_Cells_A_Case_Control_Study/3472)
+The R scripts were cloned from [this figshare project](https://figshare.com/projects/Genotoxic_Evaluation_of_Mexican_Welders_Occupationally_Exposed_to_Welding_Fumes_Using_the_Micronucleus_Test_on_Exfoliated_Oral_Mucosa_Cells_A_Case_Control_Study/3472). I improved the original ones and made them to be self contained in this repository:
 
-## Background 
+*   The dataset can be found (here)[https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Data/micronuclei-data.csv]
+*   The R script for getting and cleaning the data can be found (here)[https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Scripts/cleaning_data.R]
+*   The R script for describing the data can be found (here)[https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Scripts/desxp_analysis.R]
+*   The R script for statistical inference and modelling can be found (here)[https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Scripts/inference.R]
+
+## Abstract
+### Background 
 An estimated 800,000 people worldwide are occupationally exposed to welding-fumes. Previous studies show that the exposure to such fumes is associated with damage to genetic material and increased cancer risk. In this study, we evaluate the genotoxic effect of welding-fumes using the Micronucleus Test on oral mucosa cells of Mexican welders.
 
-## Material and Methods
+### Material and Methods
 We conducted a cross-sectional, matched case-control study of n = 66 (33 exposed welders, and 33 healthy controls). Buccal mucosa smears were collected and stained with acridine orange, observed under 100x optical amplification with a fluorescence lamp, and a single-blinded observer counted the number of micronuclei and other nuclear abnormalities per 2,000 observed cells. We compared the frequencies of micronuclei and other nuclear abnormalities, and fitted generalised linear models to investigate the interactions between nuclear abnormalities and the exposure to welding-fumes, while controlling for smoking and age.
 
-## Results 
+### Results 
 Binucleated cells and condensed-chromatin cells showed statistically significant differences between cases and controls. The frequency of micronuclei and the rest of nuclear abnormalities (lobed-nuclei, pyknosis, karyolysis, and karyorrhexis) did not differ significantly between the groups. After adjusting for smoking, the regression results showed that the occurrence of binucleated cells could be predicted by the exposure to welding-fumes plus the presence of tobacco consumption; for the condensed-chromatin cells, our model showed that the exposure to welding-fumes is the only reliable predictor.
 
-## Conclusions 
+### Conclusions 
 Our findings suggest that Mexican welders who are occupationally exposed to welding-fumes have increased counts of binucleated and condensed-chromatin cells. Nevertheless, the frequencies of micronuclei and the rest of nuclear abnormalities did not differ between cases and controls. Further studies should shed more light on this subject.
 
 ### Citation
