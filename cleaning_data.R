@@ -19,7 +19,12 @@ names(controls) <- paste("control", names(controls), sep = ".")
 ## Due to a socio-demographic feature, the participants (welders)
 ## were all male. No need of the male constant in the data frame...
 data$gender <- tolower(as.character(data$gender))
-#data$gender <- NULL # do not run if data is to be exported
 
-#write.csv(data, file = "micronuclei-data.csv", row.names = FALSE) # uncomment for CSV-formatted data
-#dump("data", file = "micronuclei-dumpdata.R") # uncomment for R-formatted data
+write.csv(data, file = "micronuclei-data.csv", row.names = FALSE) # uncomment for CSV-formatted data
+dump("data", file = "micronuclei-dumpdata.R") # uncomment for R-formatted data
+
+## getting the data ready to use
+data$gender <- NULL # run after exporting data
+attach(data)
+attach(cases)
+attach(controls)
