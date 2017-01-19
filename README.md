@@ -1,13 +1,13 @@
 # genotoxic-micronuclei
 
-R scripts and data used to produce the "Genotoxic Evaluation of Mexican Welders Occupationally Exposed to Welding-Fumes Using the Micronucleus Test on Exfoliated Oral Mucosa Cells: A Case-Control Study" paper ([full-text])(http://dx.doi.org/10.1371/journal.pone.0131548)
+R scripts and data used to produce the "Genotoxic Evaluation of Mexican Welders Occupationally Exposed to Welding-Fumes Using the Micronucleus Test on Exfoliated Oral Mucosa Cells: A Case-Control Study" paper ([full-text](http://dx.doi.org/10.1371/journal.pone.0131548))
 
 The R scripts were cloned from [this figshare project](https://figshare.com/projects/Genotoxic_Evaluation_of_Mexican_Welders_Occupationally_Exposed_to_Welding_Fumes_Using_the_Micronucleus_Test_on_Exfoliated_Oral_Mucosa_Cells_A_Case_Control_Study/3472). I improved the original ones and made them to be self contained in this repository:
 
-*   The dataset can be found (here)[https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Data/micronuclei-data.csv]
-*   The R script for getting and cleaning the data can be found (here)[https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Scripts/cleaning_data.R]
-*   The R script for describing the data can be found (here)[https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Scripts/desxp_analysis.R]
-*   The R script for statistical inference and modelling can be found (here)[https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Scripts/inference.R]
+*   The dataset can be found [here](https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Data/micronuclei-data.csv)
+*   The R script for getting and cleaning the data can be found [here](https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Scripts/cleaning_data.R)
+*   The R script for describing the data can be found [here](https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Scripts/desxp_analysis.R)
+*   The R script for statistical inference and modelling can be found [here](https://github.com/jclopeztavera/genotoxic-micronuclei/blob/master/Scripts/inference.R)
 
 ## Abstract
 ### Background 
